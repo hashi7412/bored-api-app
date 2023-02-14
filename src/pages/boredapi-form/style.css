@@ -1,0 +1,63 @@
+.bored-api {
+    padding: 2rem 0;
+    width: 900px;
+    text-align: center;
+}
+
+.bored-api h2 {
+    margin-bottom: 1rem;
+}
+
+.url-form {
+    display: flex;
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.url-form span {
+    padding: 0.5rem;
+    border-right: 1px solid var(--border);
+    font-size: 1.2rem;
+    background: var(--gray);
+}
+
+.url-form input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+	color: var(--color);
+}
+
+.url-form button {
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background: var(--button);
+    border: 1px solid var(--button);
+    color: var(--light);
+}
+
+.url-form button:hover {
+    background: var(--button-hover);
+    border: 1px solid var(--button-hover);
+}
+
+.result {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-family: unset;
+    text-align: left;
+    text-overflow: initial;
+    /* resize: none; */
+    overflow: hidden;
+}
+
+/* @media (max-width: ) */
